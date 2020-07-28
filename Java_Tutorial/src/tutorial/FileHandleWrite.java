@@ -24,8 +24,9 @@ public class FileHandleWrite {
 		Scanner s  = new Scanner(System.in);
 		System.out.println("Enter line number upto  you want to write :");
 		int rowCount = s.nextInt();
+		s.nextLine();
 		System.out.println("Enter the text wou want to write");
-		String input =s.next();
+		String input =s.nextLine();
 		FileHandleWrite fh = new FileHandleWrite();
 		fh.WriteData(rowCount,input);
 		
