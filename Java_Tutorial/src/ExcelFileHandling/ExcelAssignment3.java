@@ -31,7 +31,7 @@ public class ExcelAssignment3 {
 
 	public static void main(String[] args) throws BiffException, IOException {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the starting row no");
+		System.out.println("Enter the starting row no.");
 		int StartRow = sc.nextInt();
 		System.out.println("Enter the ending row no");
         int EndRow = sc.nextInt();

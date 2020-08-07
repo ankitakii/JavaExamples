@@ -27,7 +27,7 @@ public class ExcelAssignment2 {
 
 	public static void main(String[] args) throws BiffException, IOException {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the row no");
+		System.out.println("Enter the row no.");
         int r = sc.nextInt();
         ExcelAssignment2 ea = new ExcelAssignment2();
         ea.ReadDataBasedUponRowNo(r);

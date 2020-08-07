@@ -33,7 +33,7 @@ public class ExcelAssignment {
 	public static void main(String[] args) throws BiffException, IOException {
 		
 		ExcelAssignment ea = new ExcelAssignment();
-		ea.ReadDataBasedUponRowNoAndColumnNo(1);
+		ea.ReadDataBasedUponRowNoAndColumnNo(0);
 		
 
 	}

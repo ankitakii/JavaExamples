@@ -23,7 +23,7 @@ public class ExcelAssigment1 {
 
 	public static void main(String[] args) throws BiffException, IOException {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the column no");
+		System.out.println("Enter the column no.");
 		int c = sc.nextInt();
 		System.out.println("Enter the row no");
         int r = sc.nextInt();
